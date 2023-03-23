@@ -9,12 +9,14 @@
 
 }
 .container{
-  width: 40%;
-  height: 80vh;
-  border: 1px solid black;
+  color: rgb(10, 238, 10);
+  width: 37%;
+  height: 74vh;
+  /* border: 1px solid black; */
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  /* gap: 100px; */
+  grid-template-columns: repeat(3,1fr);
  
  
  
@@ -26,20 +28,36 @@
   width: 95%;
   margin: auto;
   height: 30%;
-  border: 1px solid black;
+  box-shadow: inset;
+  /* border: 1px solid black; */
 }
 
 .red>div{
-  width: 140px;
-  height: 140px;
-  border: 1px solid black;
+  width: 110px;
+  height: 110px;
+  /* border: 1px solid black; */
   background-color: white;
   display: grid;
   grid-template-columns: repeat(2,1fr);
  
   align-items: center;
+  
   justify-content: center;
 
 }
+
+.Home{
+  /* margin:3em; */
+  width:0; /*set dimensions of DIV to 0 so its borders collapse and touch one 
+  another*/
+  height:0;
+  border-color: rgb(10, 238, 10) rgb(240, 240, 16) rgba(6, 50, 247, 0.767)  rgb(233, 16, 16); /*top, right, bottom, and left border*/
+  border-style: solid;
+  border-width: 55px; 
+  border-radius: 20px;
+  
+}
+
+  
 
 
